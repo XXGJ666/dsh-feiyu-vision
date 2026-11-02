@@ -1,0 +1,41 @@
+{
+  "name": "dsh-feiyu-vision",
+  "version": "0.1.0",
+  "description": "给 DeepSeek Harness 加上看图能力：vision 工具 + 图片描述（智谱 GLM-4V-Flash，免费额度）",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "src",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./client": "./client.js"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "vision",
+    "image",
+    "glm-4v"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-settings-plugins"
+      ]
+    }
+  }
+}
