@@ -1,4 +1,9 @@
 /**
+ * dsh-feiyu-vision · © 2026 ShirasuAzusa_XXGJ
+ * https://github.com/ShirasuAzusa_XXGJ/dsh-feiyu-vision
+ * MIT License —— 转载/修改请保留本版权声明与仓库地址。
+ */
+/**
  * dsh-feiyu-vision 核心：图片预处理 + 多模型识图/认人（不依赖 DSH）
  * 配置：D:\\dshchajian\\vision-config.json（也可环境变量）
  */

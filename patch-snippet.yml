@@ -1,0 +1,12 @@
+- insert:
+    - id: dsh-feiyu-vision
+      name: dsh-feiyu-vision
+      disabled: false
+      config:
+        arkApiKey: ''
+        arkModel: doubao-seed-evolving
+        arkModelLite: doubao-seed-2-1-lite-260915
+        zhipuApiKey: ''
+        zhipuModel: glm-4.5v
+        sauceApiKey: ''
+        ffmpeg: ''

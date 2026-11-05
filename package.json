@@ -10,7 +10,9 @@
     "client.js",
     "cordis.patch.yml",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "安装.bat",
+    "patch-snippet.yml"
   ],
   "exports": {
     ".": "./index.js",
@@ -37,5 +39,11 @@
         "@deepseek-ai/dsh-client-ui-settings-plugins"
       ]
     }
-  }
+  },
+  "author": "ShirasuAzusa_XXGJ",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShirasuAzusa_XXGJ/dsh-feiyu-vision.git"
+  },
+  "homepage": "https://github.com/ShirasuAzusa_XXGJ/dsh-feiyu-vision#readme"
 }

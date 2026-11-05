@@ -40,7 +40,7 @@ export function apply(ctx, pluginConfig) {
 async function load(){const j=await (await fetch('/dsh-feiyu-vision/state')).json();const ok=b=>b?'<span class="ok">已配置</span>':'<span class="bad">未配置</span>';document.getElementById('ffmpeg').value=j.ffmpeg||'';document.getElementById('st').innerHTML='<div class="row">豆包 '+ok(j.hasArk)+' <span class="note">'+j.arkModel+' / '+j.arkModelLite+'</span></div><div class="row">智谱 '+ok(j.hasZhipu)+' <span class="note">'+j.zhipuModel+'</span></div><div class="row">SauceNAO '+ok(j.hasSauce)+'</div><div class="row note" style="word-break:break-all">ffmpeg: '+(j.ffmpeg||'')+'</div>'}
 async function save(){const b={};for(const k of ['ark','zhipu','sauce']){const v=document.getElementById(k).value.trim();if(v)b[k==='ark'?'arkApiKey':k==='zhipu'?'zhipuApiKey':'sauceApiKey']=v}await fetch('/dsh-feiyu-vision/config',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(b)});await fetch('/dsh-feiyu-vision/config',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({ffmpeg:document.getElementById('ffmpeg').value.trim()})});document.getElementById('msg').textContent='已保存，重启 DSH 后生效';load()}
 load();
-</script></body></html>`
+</script><div style="opacity:.45;font-size:11px;margin-top:16px">© 2026 <a href="https://github.com/ShirasuAzusa_XXGJ" target="_blank" rel="noreferrer" style="color:#5aa9ff">ShirasuAzusa_XXGJ</a> · <a href="https://github.com/ShirasuAzusa_XXGJ/dsh-feiyu-vision" target="_blank" rel="noreferrer" style="color:#5aa9ff">dsh-feiyu-vision</a> · MIT</div></body></html>`
     res.statusCode = 200
     res.setHeader('content-type', 'text/html; charset=utf-8')
     res.end(html)

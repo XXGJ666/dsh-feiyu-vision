@@ -40,7 +40,6 @@ API Key 在 <https://open.bigmodel.cn> 注册后「API Keys」里新建即可，
 
 MIT
 
-## 更简单的方式
+---
 
-装好后点左侧「识图」，页面里填 Key 和 ffmpeg 路径，保存后重启；页面底部有各平台申请 Key 的步骤。
-
+© 2026 [ShirasuAzusa_XXGJ](https://github.com/ShirasuAzusa_XXGJ) · [dsh-feiyu-vision](https://github.com/ShirasuAzusa_XXGJ/dsh-feiyu-vision) · MIT License
