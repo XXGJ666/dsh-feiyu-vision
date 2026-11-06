@@ -1,4 +1,4 @@
-# dsh-feiyu-vision
+﻿# dsh-feiyu-vision
 
 给 [DeepSeek Harness](https://github.com/deepseek-ai) 加上"看图"能力的小插件。
 
@@ -42,4 +42,4 @@ MIT
 
 ---
 
-© 2026 [ShirasuAzusa_XXGJ](https://github.com/ShirasuAzusa_XXGJ) · [dsh-feiyu-vision](https://github.com/ShirasuAzusa_XXGJ/dsh-feiyu-vision) · MIT License
+© 2026 [ShirasuAzusa_XXGJ](https://github.com/XXGJ666) · [dsh-feiyu-vision](https://github.com/XXGJ666/dsh-feiyu-vision) · MIT License

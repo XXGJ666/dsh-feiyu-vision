@@ -1,6 +1,6 @@
-/**
+﻿/**
  * dsh-feiyu-vision · © 2026 ShirasuAzusa_XXGJ
- * https://github.com/ShirasuAzusa_XXGJ/dsh-feiyu-vision
+ * https://github.com/XXGJ666/dsh-feiyu-vision
  * MIT License —— 转载/修改请保留本版权声明与仓库地址。
  */
 /**

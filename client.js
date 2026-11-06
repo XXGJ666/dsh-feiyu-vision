@@ -1,6 +1,6 @@
-/**
+﻿/**
  * dsh-feiyu-vision · 侧边栏图标 + 原生透明面板
- * © 2026 ShirasuAzusa_XXGJ · https://github.com/ShirasuAzusa_XXGJ/dsh-feiyu-vision
+ * © 2026 ShirasuAzusa_XXGJ · https://github.com/XXGJ666/dsh-feiyu-vision
  */
 window.__ModuleLoader__.load({
   id: 'dsh-feiyu-vision',
@@ -69,7 +69,7 @@ window.__ModuleLoader__.load({
           h('div', { className: 'fv-note' }, 'SauceNAO（可选）：saucenao.com → 注册 → Account 页复制 key'),
           h('div', { className: 'fv-note' }, 'ffmpeg：https://www.gyan.dev/ffmpeg/builds/ 下载 essentials.zip，解压后找到 bin\\ffmpeg.exe，把完整路径填上'),
           h('div', { className: 'fv-note' }, '全部填完点保存 → 完全退出 DSH 再打开 → 回来这里应该全是「已配置」')),
-        h('div', { className: 'fv-note', style: { marginTop: '10px' } }, '© 2026 ', h('a', { href: 'https://github.com/ShirasuAzusa_XXGJ', target: '_blank', rel: 'noreferrer' }, 'ShirasuAzusa_XXGJ'), ' · ', h('a', { href: 'https://github.com/ShirasuAzusa_XXGJ/dsh-feiyu-vision', target: '_blank', rel: 'noreferrer' }, 'dsh-feiyu-vision'), ' · MIT'))
+        h('div', { className: 'fv-note', style: { marginTop: '10px' } }, '© 2026 ', h('a', { href: 'https://github.com/XXGJ666', target: '_blank', rel: 'noreferrer' }, 'ShirasuAzusa_XXGJ'), ' · ', h('a', { href: 'https://github.com/XXGJ666/dsh-feiyu-vision', target: '_blank', rel: 'noreferrer' }, 'dsh-feiyu-vision'), ' · MIT'))
     }
     return {
       inject: ['slots'],
