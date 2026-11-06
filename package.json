@@ -1,6 +1,6 @@
 {
   "name": "dsh-feiyu-vision",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "给 DeepSeek Harness 加上看图能力：vision 工具 + 图片描述（智谱 GLM-4V-Flash，免费额度）",
   "type": "module",
   "main": "index.js",
